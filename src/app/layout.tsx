@@ -23,6 +23,11 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "PowerPulse",
   description: "Crowd-sourced electricity outage tracking for Ghana",
+  openGraph: {
+    title: "PowerPulse",
+    description: "Crowd-sourced electricity outage tracking for Ghana",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
