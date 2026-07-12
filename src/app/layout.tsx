@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import { AuthProvider } from "@/lib/auth-context";
 import CompleteProfile from "@/components/CompleteProfile";
@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     description: "Crowd-sourced electricity outage tracking for Ghana",
     type: "website",
   },
+};
+export const viewport: Viewport = {
+  themeColor: "#160F08",
 };
 
 export default function RootLayout({
